@@ -2,7 +2,7 @@
 
 Apply the observer pattern to display weather information.
 
-## if you use ubuntu
+#### if you use ubuntu
 
 ## Run Locally
 
