@@ -11,7 +11,7 @@ Apply the observer pattern to display weather information.
 - Clone the project
 
 ```bash
-  git clone https://github.com/aplusJsDev/miniplus
+  git clone https://github.com/aplusJsDev/miniplus.git
 ```
 
 - Go to the project directory
