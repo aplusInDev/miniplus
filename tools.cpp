@@ -41,9 +41,9 @@ void showCond(Meteo *meteo)
          << "\t"
          << "==" << setw(8) << press[2] << " hpa" << endl;
     wcout << "Temperature"
-         << "\t"
-         << "==" << setw(8) << temp[2] << L" °C";
-//         << "==" << setw(8) << temp[2] << " \u00B0C";
+          << "\t"
+          << "==" << setw(8) << temp[2] << L" °C";
+    //         << "==" << setw(8) << temp[2] << " \u00B0C";
     dashe(50);
     choice = sub_menu();
     switch (choice)
@@ -140,9 +140,9 @@ void showStatistics(Meteo *meteo)
     wcout << "Temperature"
           << "\t"
           << "==";
-    wcout << setw(8) << temp[2] << L" °C";
+    wcout << setw(8) << temp[0] << L" °C";
     wcout << setw(15) << temp[1] << L" °C";
-    wcout << setw(15) << temp[0] << L" °C";
+    wcout << setw(15) << temp[2] << L" °C";
     dashe(80);
     //
     choice = sub_menu();
